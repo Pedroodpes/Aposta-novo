@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>clobet</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="cabeçalho">
+    <div class="container">
+      <input type="checkbox" id="menu" class="container__botao">
+      <label for="menu">
+        <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+      </label>
+      <ul class="lista-menu">
+        <li class="lista-menu__titulo">Categorias</li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">conta</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">histórico de apostas</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">casssino</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">aposta esportiva</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">futebol</a>
+        </li>
+      </ul>
+
+    </div>
+    <div class="container">
+      <a href="#"><img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem"></a>
+    </div>
+  </header>
+
+  <section class="banner">
+    <center>
+      <h2 class="banner__titulo">Já sabe por onde começar a apostar?</h2>
+      <p class="banner__texto">Encontre em nosso site o que precisa para começar a lucrar</p>
+
+    </center>
+    <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima aposta?">
+  </section>
+
+  <section class="carrossel">
+    <h2 class="carrossel__titulo">plataformas</h2>
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="img/littletiger.jpg"
+            alt="Livro sobre apache kafka e spring boot da alura books"></div>
+        <div class="swiper-slide"><img src="img/coelinho.jpg"
+            alt="Livro sobre liderança em design design da alura books"></div>
+        <div class="swiper-slide"><img src="img/fortune-dragon.jpg.webp" alt="Livro sobre javascript assertivo da alura books">
+        </div>
+        <div class="swiper-slide">
+          <img src="img/tourinho.jpg" alt="Livro Guia front end" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/mouse.jpg" alt="Livro sobre portugol" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/mines-thumbnail.jpg" alt="Livro sobre acessibilidade" />
+        </div>
+      </div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+    </div>
+
+    <div class="card">
+      <div class="card__descrição">
+        <div class="descrição">
+          <h3 class="descrição__titulo"></h3>
+          <h2 class="descrição__titulo-livro"></h2>
+          <p class="descrição__texto">
+            
+          </p>
+        </div>
+        <img src="" class="descrição__imagem" />
+      </div>
+      <div class="card__botões">
+        <ul class="botões">
+          <li class="botões__item">
+            <img src="img/Favoritos.svg" alt="Favoritar livro" />
+          </li>
+          <li class="botões__item">
+            <img src="img/Compras.svg" alt="Adicionar no carrinho de compras" />
+          </li>
+        </ul>
+        <a href="#" class="botões__ancora">Saiba mais</a>
+      </div>
+    </div>
+
+  </section>
+
+  <section class=”carrossel”>
+    <h2 class="carrossel__titulo">Mais populares</h2>
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="img/aviator-thumbnail.jpg"
+            alt="aviator"></div>
+        <div class="swiper-slide"><img src="img/veiodoraio.jpg" alt="raios">
+        </div>
+        <div class="swiper-slide"><img src="img/tourinho.jpg" alt="touro">
+        </div>
+        <div class="swiper-slide"><img src="img/baccarat.jpeg" alt="Livro Guia front end"></div>
+        <div class="swiper-slide"><img src="img/mouse.jpg" alt="Livro sobre portugol"></div>
+        <div class="swiper-slide"><img src="img/coelinho.jpg" alt="livro sobre acessibilidade"></div>
+      </div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <div class="card">
+      <!-- 1º linha -->
+      <div class="card__descrição">
+        <!-- 1º coluna -->
+        <div class="descrição">
+          <img src="img/Estrelinhas.sv" alt="">
+          <h3 class="descrição__titulo">Apostador do Mês</h3>
+          <h2 class="descrição__titulo-livro">Yuri22</h2>
+          <p class="descrição__texto">apostador de cassino online e aposta esportiva
+          </p>
+        </div>
+        <!-- 2º coluna -->
+        <img src="img/yuyu.jpeg" class="descrição__imagem">
+      </div>
+
+      <!-- 2º linha -->
+      <div class="card__botões">
+        <!-- 1º coluna -->
+        <ul class="botões">
+          <li class="botões__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
+          <li class="botões__item"><img src="img/Compras.svg" alt="Adicionar no carrinho de compras"></li>
+        </ul>
+        <!-- 2º coluna -->
+        <a href="#" class="botões__ancora">Saiba mais</a>
+      </div>
+    </div>
+
+
+
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".swiper", {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      pagination: {
+        el: ".swiper-pagination",
+        type: "bullets",
+      },
+    });
+  </script>
+</body>
+
+</html>
